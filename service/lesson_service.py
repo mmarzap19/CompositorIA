@@ -1,11 +1,31 @@
 # service/lesson_service.py
 from openai import OpenAI
+from dotenv import load_dotenv
+import os
 
-key = ""
+load_dotenv()  # carga las vars del archivo .env
+
+BASE_PROMPT = """
+Eres un asistente especializado en crear contenido educativo diseñado para convertirse después en la letra de una canción.
+
+Tu tarea es generar una LECCIÓN EDUCATIVA COMPLETA, clara y atractiva, que luego será transformada en una canción con letra educativa.
+
+La lección debe cumplir estos requisitos:
+
+1. **Título de la lección**
+2. **Objetivo educativo** (qué se desea enseñar)
+3. **Explicación del concepto**, sencilla, precisa y adecuada para público infantil o juvenil.
+4. **Ejemplos prácticos** para reforzar el aprendizaje.
+5. **Ideas narrativas o emocionales** que puedan inspirar la letra de una canción (personajes, metáforas, situaciones, mensajes clave, etc.)
+
+Elige un tema educativo apropiado (ciencia, matemáticas, valores, hábitos saludables, historia, lenguaje, etc.) y genera la lección siguiendo exactamente la estructura anterior.
+
+Mantén un tono positivo, creativo y fácil de musicalizar.
+"""
+
+key = os.getenv("OPENAI_KEY")
 
 def get_lesson_from_model(query):
-    # Aquí pondrías tu lógica real
-
 
     # Inicializa el cliente con tu API key
     client = OpenAI(api_key= key)
@@ -14,7 +34,8 @@ def get_lesson_from_model(query):
     response = client.chat.completions.create(
         model="gpt-4.1-mini",
         messages=[
-            {"role": "user", "content": query}
+                {"role": "system", "content": BASE_PROMPT},
+                {"role": "user", "content": query}
         ]
     )
 

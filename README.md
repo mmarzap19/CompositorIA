@@ -6,4 +6,5 @@ python main.py
 ```
 ```bash
 pip install openai
+pip install python-dotenv
 ```

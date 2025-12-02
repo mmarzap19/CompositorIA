@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, request
 from service.lesson_service import get_lesson_from_model
+from service.audio_service import get_audio_from_model
 
 app  = Flask(__name__)
 
@@ -26,7 +27,16 @@ def get_lyrics():
 
 @app.route('/get_audio')
 def get_audio():
-    return "I am an audio"
+    data = request.get_json()
+
+    # Obtenemos el json de la petición
+    query = data["lyrics"]
+
+    # Enviamos a suno la petición y obtenemos el audio
+    a= get_audio_from_model(query)
+
+    # Enviamos el audio al usuario
+    return a
 
 @app.route('/generate_song')
 def generate_song():
