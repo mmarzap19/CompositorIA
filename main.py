@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, request
+from service.lesson_service import get_lesson_from_model
 
 app  = Flask(__name__)
 
@@ -6,6 +7,32 @@ app  = Flask(__name__)
 def root():
     return "root"
 
+@app.route('/get_lesson')
+def get_lesson():
+    data = request.get_json()
+
+    # Obtenemos el json de la petición
+    query = data["query_user"]
+
+    # Enviamos a chatGPT la petición y obtenemos la lección
+    a= get_lesson_from_model(query)
+
+    # Enviamos la leccion al usuario
+    return a
+
+@app.route('/get_lyrics')
+def get_lyrics():
+    return "I am a lyrics"
+
+@app.route('/get_audio')
+def get_audio():
+    return "I am an audio"
+
+@app.route('/generate_song')
+def generate_song():
+    return "I am a song"
+
+'''
 @app.route("/users/<user_id>")
 def get_user(user_id):
     user={'id':user_id,'name':'test','telefono':'999-666-333'}
@@ -22,6 +49,7 @@ def create_user():
     return jsonify(data), 201 # código 201 (inf ya se creó)
 
 
+'''
 if __name__ == '__main__':
     app.run(debug=True)
 
