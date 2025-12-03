@@ -1,4 +1,5 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, send_file
+from service.audio_service import get_audio_from_model
 from service.lesson_service import get_lesson_from_model
 from service.audio_service import get_audio_from_model
 
@@ -33,10 +34,12 @@ def get_audio():
     query = data["lyrics"]
 
     # Enviamos a suno la petición y obtenemos el audio
-    a= get_audio_from_model(query)
+    # Generar audio y guardarlo en el equipo
+    audio_path = get_audio_from_model(query)
 
-    # Enviamos el audio al usuario
-    return a
+    # Devolver el archivo como respuesta
+    return send_file(audio_path, mimetype="audio/mpeg")
+
 
 @app.route('/generate_song')
 def generate_song():
