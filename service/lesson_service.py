@@ -1,5 +1,6 @@
 # service/lesson_service.py
 from openai import OpenAI
+from google import genai 
 from dotenv import load_dotenv
 import os
 
@@ -23,16 +24,16 @@ Elige un tema educativo apropiado (ciencia, matemáticas, valores, hábitos salu
 Mantén un tono positivo, creativo y fácil de musicalizar.
 """
 
-key = os.getenv("OPENAI_KEY")
+key = os.getenv("GEMINI_API_KEY")
 
 def get_lesson_from_model(query):
 
     # Inicializa el cliente con tu API key
-    client = OpenAI(api_key= key)
+    client = genai.Client(api_key=key)
 
     # Envía una consulta (prompt)
     response = client.chat.completions.create(
-        model="gpt-4.1-mini",
+        model="gpt-4.1-mini", # cambiar a gemini --> mirar chatty
         messages=[
                 {"role": "system", "content": BASE_PROMPT},
                 {"role": "user", "content": query}
