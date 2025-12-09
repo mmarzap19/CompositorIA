@@ -1,0 +1,116 @@
+{
+  "name": "Mi_primer_fluj",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -368,
+        -32
+      ],
+      "id": "4d6075c6-4a4c-4122-b8ba-2f85e2a119ed",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        -640,
+        160
+      ],
+      "id": "ca827343-8c2b-49bb-87e7-81ceca1a12f6",
+      "name": "When chat message received",
+      "webhookId": "320f516f-c2b4-43ec-907e-448652443720"
+    },
+    {
+      "parameters": {
+        "promptType": "=",
+        "text": "",
+        "options": {
+          "systemMessage": "Eres un GENERADOR DE SECCIONES ESTRUCTURADAS para un perfil de aprendizaje. NO interpretas, NO opinas y NO amplías: SOLO generas tres apartados basados en el HISTORIAL (si existe) y en el ÚLTIMO MENSAJE.\n\nDebes producir EXACTAMENTE tres bloques:\n\nDATOS DE LA PERSONA → Resume datos personales explícitos mencionados.\n\nGUSTOS MUSICALES → Resume las preferencias musicales mencionadas.\n\nLO QUE QUIERE APRENDER → Describe lo que la persona desea aprender según historial y/o último mensaje.\n\nLÍMITES\n\nSi el último mensaje es saludo, despedida, agradecimiento o no expresa intención informativa → devuelve exactamente: \"\".\n\nNo inventes datos: utiliza solo información explícita o claramente inferible.\n\nSi NO existe historial, utiliza únicamente el último mensaje.\n\nDevuelve únicamente los tres apartados, con sus títulos en mayúsculas.\n\nSi falta información en un apartado, escribe “No especificado”.\n\nNo generes explicaciones adicionales ni texto fuera de los tres apartados.\n\nOBJETIVO (interno)\nGenerar un resultado autocontenido que incluya:\n\nUn apartado DATOS DE LA PERSONA.\n\nUn apartado GUSTOS MUSICALES.\n\nUn apartado LO QUE QUIERE APRENDER.\nResolver referencias (“eso”, “lo otro”, “eso que dije antes”) usando el historial si existe; si no, ignora la elipsis.\n\nALGORITMO (interno)\n\nAnaliza el ÚLTIMO MENSAJE. Si es elíptico, usa el TEMA_BASE del historial si existe.\n\nExtrae datos personales, gustos musicales y lo que la persona quiere aprender.\n\nCompleta cada apartado; si uno no tiene información, escribe “No especificado”.\n\nDevuelve únicamente los tres apartados en el formato requerido.\n\nFORMATO DE SALIDA (OBLIGATORIO)\n\nDATOS DE LA PERSONA:\n...\n\nGUSTOS MUSICALES:\n...\n\nLO QUE QUIERE APRENDER:\n...\n\n\no bien:\n\n\"\"\n\n\nsi no existe intención informativa.\n\nEjemplo rápido\n\nÚltimo mensaje:\n“Quiero aprender composición musical. Me llamo Luis y suelo escuchar jazz.”\n\nSalida:\n\nDATOS DE LA PERSONA:\nNombre: Luis.\n\nGUSTOS MUSICALES:\nPreferencia: jazz.\n\nLO QUE QUIERE APRENDER:\nComposición musical."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3,
+      "position": [
+        48,
+        -32
+      ],
+      "id": "fa259664-8843-4e9b-a87d-5ecf071cc40d",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "modelName": "models/gemini-2.0-flash",
+        "options": {
+          "temperature": 0.4
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        -96,
+        176
+      ],
+      "id": "0c74b094-8f77-4dd2-95fc-6cadbf4fa5a0",
+      "name": "Google Gemini Chat Model",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "GRYCjR7QAJsEbb8I",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "e2cd39af-dc9d-4d6f-96ea-942f7493529d",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "07320cdc39cb7331db167ef3ac3350bdb2ae132b76c3d5daf43d7a1d68e8cc82"
+  },
+  "id": "xw99XvrDBXO8q8XK",
+  "tags": []
+}
