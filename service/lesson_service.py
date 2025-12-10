@@ -40,12 +40,3 @@ def get_lesson_from_model(query):
 
     # Imprime la respuesta del modelo
     return response.text
-
-
-
-
-    return {
-        "id": 1,
-        "name": "Lección de ejemplo",
-        "description": "Esto sería una descripción real."
-    }

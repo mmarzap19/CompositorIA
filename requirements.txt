@@ -1,3 +1,9 @@
+Flask
 openai==2.8.1
 python-dotenv==0.21.0
+<<<<<<< HEAD
 google-genai==1.53.0 
+=======
+google-genai==1.53.0
+pydantic
+>>>>>>> 447f10785638b3820bf87d2940dbefc8f3cb3af1
