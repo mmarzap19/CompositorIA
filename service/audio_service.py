@@ -12,7 +12,7 @@ load_dotenv()  # carga las vars del archivo .env
 
 key = os.getenv("ELEVENLABS_KEY")
 
-def get_audio_from_model(query, output_path="output_audio.mp3"):
+def get_audio_from_model(query, output_path="/utils/lesson_audio.mp3"):
     
     # Inicializa el cliente con tu API key
     client = ElevenLabs(api_key= key)
