@@ -11,9 +11,11 @@ Además de esto, se usa como flujo para entender el funcionamiento de n8n
  -
  -
  -
+ 
 ## Flujo_Songwritter
 
 El propósito de esto es implementar la llamada al modelo LLM_Songwritter ya entrenado
+ 
  - 
  -
  -
@@ -22,6 +24,7 @@ El propósito de esto es implementar la llamada al modelo LLM_Songwritter ya ent
 ## Flujo_Entrenamiento
 
 El propósito es poder gestionar de una forma más cómoda el entrenamiento del LLM_Songwritter
+ 
  - 
  -
  -
