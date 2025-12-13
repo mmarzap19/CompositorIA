@@ -1,0 +1,827 @@
+{
+  "analisis_canciones_pop": [
+    {
+      "id": 1,
+      "cancion": "Stayin' Alive",
+      "artista": "Bee Gees",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "Wells, you can tell by the way I use my walk, I'm a woman's man, no time to talk. / Feel the city breaking and everybody shaking.",
+      "puente_clave": "Life goin' nowhere, somebody help me. I'm in need of some help.",
+      "estribillo_clave": "Ah, ha, ha, ha, stayin' alive, stayin' alive. Ah, ha, ha, ha, stayin' alive.",
+      "proposito_gancho": "Afirmación: Es un grito de supervivencia y optimismo en la vida urbana."
+    },
+    {
+      "id": 2,
+      "cancion": "How Deep Is Your Love",
+      "artista": "Bee Gees",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "I know your eyes in the morning sun, I feel you touch me in the pouring rain. / When you come to me on a summer breeze.",
+      "puente_clave": "And you come to me on a summer breeze, keep me warm in your love, then you softly leave.",
+      "estribillo_clave": "How deep is your love? How deep is your love? I really need to learn, 'Cause we're living in a world of fools breaking us down...",
+      "proposito_gancho": "Pregunta/Súplica: Busca certeza y profundidad en la relación, ante la adversidad."
+    },
+    {
+      "id": 3,
+      "cancion": "Hotel California",
+      "artista": "Eagles",
+      "estructura_vcvc": "V-C-V-C-P-C-Solo",
+      "estrofa_1_clave": "On a dark desert highway, cool wind in my hair. Warm smell of colitas, rising up through the air.",
+      "puente_clave": "Mirrors on the ceiling, the pink champagne on ice. And she said 'We are all just prisoners here, of our own device.'",
+      "estribillo_clave": "Welcome to the Hotel California. Such a lovely place (Such a lovely face). What a nice surprise, bring your alibis.",
+      "proposito_gancho": "Dualidad/Trampa: Presenta el hotel como un lugar atractivo pero sospechoso y sin salida."
+    },
+    {
+      "id": 4,
+      "cancion": "Bohemian Rhapsody",
+      "artista": "Queen",
+      "estructura_vcvc": "Intro-Balada-Ópera-Rock-Outro (No V-C tradicional)",
+      "estrofa_1_clave": "Mama, just killed a man, put a gun against his head, pulled my trigger, now he's dead.",
+      "puente_clave": "I see a little silhouetto of a man. Scaramouche, Scaramouche, will you do the Fandango? Magnifico.",
+      "estribillo_clave": "Bismillah! No, we will not let you go. (Let him go!) Bismillah! We will not let you go. (Let me go!)",
+      "proposito_gancho": "Negociación/Drama: El momento del conflicto y el grito interno del narrador contra su destino."
+    },
+    {
+      "id": 5,
+      "cancion": "Don't Stop Me Now",
+      "artista": "Queen",
+      "estructura_vcvc": "V-C-V-C-P-Solo-C",
+      "estrofa_1_clave": "Tonight I'm gonna have myself a real good time, I feel alive. And the world I'll turn it inside out, yeah.",
+      "puente_clave": "I'm a shooting star leaping through the sky, like a tiger defying the laws of gravity.",
+      "estribillo_clave": "Don't stop me now, 'cause I'm having a good time, having a good time!",
+      "proposito_gancho": "Euforia/Celebración: Expresión de energía ilimitada y la necesidad de disfrutar el momento."
+    },
+    {
+      "id": 6,
+      "cancion": "I Will Survive",
+      "artista": "Gloria Gaynor",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "At first I was afraid, I was petrified. Kept thinking I could never live without you by my side.",
+      "puente_clave": "Go on now go, walk out the door. Just turn around now, 'cause you're not welcome anymore.",
+      "estribillo_clave": "Did you think I'd lay down and die? Oh no, not I, I will survive! Oh, as long as I know how to love, I know I'll stay alive.",
+      "proposito_gancho": "Empoderamiento/Rechazo: Afirmación de la fuerza personal y el rechazo total al ex amante."
+    },
+    {
+      "id": 7,
+      "cancion": "September",
+      "artista": "Earth, Wind & Fire",
+      "estructura_vcvc": "V-C-V-C-Solo-C",
+      "estrofa_1_clave": "Do you remember the 21st night of September? Love was changing the minds of pretenders. / Hearts were ringing, in the key that our souls were singing.",
+      "puente_clave": "My thoughts are here with you. Holding hands with your heart to see you.",
+      "estribillo_clave": "Baa de ya, say do you remember. Baa de ya, dancing in September. Baa de ya, golden dreams were shining in the night.",
+      "proposito_gancho": "Nostalgia/Alegría: Invita a recordar un momento de amor y felicidad en el pasado."
+    },
+    {
+      "id": 8,
+      "cancion": "Imagine",
+      "artista": "John Lennon",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "Imagine there's no heaven, it's easy if you try. No hell below us, above us only sky.",
+      "puente_clave": "You may say I'm a dreamer, but I'm not the only one.",
+      "estribillo_clave": "I hope someday you'll join us, and the world will be as one.",
+      "proposito_gancho": "Visión/Invitación: Expone la visión utópica y anima al oyente a unirse a ese sueño."
+    },
+    {
+      "id": 9,
+      "cancion": "Piano Man",
+      "artista": "Billy Joel",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "It's nine o'clock on a Saturday, the regular crowd shuffles in. There's an old man sitting next to me, making love to his tonic and gin.",
+      "puente_clave": "It's a pretty good crowd for a Saturday, and the manager gives me a smile. 'Cause he knows that it's me they've been coming to see, to forget about life for a while.",
+      "estribillo_clave": "Sing us a song, you're the piano man. Sing us a song tonight. Well, we're all in the mood for a melody, and you've got us feeling alright.",
+      "proposito_gancho": "Identidad/Conexión: Petición de los clientes que el músico les dé un momento de escape con su arte."
+    },
+    {
+      "id": 10,
+      "cancion": "Lean on Me",
+      "artista": "Bill Withers",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "Sometimes in our lives we all have pain, we all have sorrow. But if we are wise, we know that there's always tomorrow.",
+      "puente_clave": "Just call on me brother, when you need a hand. We all need somebody to lean on.",
+      "estribillo_clave": "Lean on me, when you're not strong, and I'll be your friend, I'll help you carry on. For it won't be long 'til I'm gonna need somebody to lean on.",
+      "proposito_gancho": "Apoyo/Reciprocidad: Ofrece ayuda incondicional, reconociendo que él también la necesitará."
+    },
+    {
+      "id": 11,
+      "cancion": "Let's Stay Together",
+      "artista": "Al Green",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "I'm so in love with you, whatever you want to do is alright with me. 'Cause you make me feel so brand new.",
+      "puente_clave": "Oh darling, let's stay together. I'm lonely.",
+      "estribillo_clave": "Let's stay together, loving you whether, times are good or bad, happy or sad. Why, somebody, why people break up? Oh, they do.",
+      "proposito_gancho": "Compromiso: Ruego de lealtad y estabilidad ante la adversidad de las rupturas comunes."
+    },
+    {
+      "id": 12,
+      "cancion": "Rocket Man",
+      "artista": "Elton John",
+      "estructura_vcvc": "V-C-V-C-Solo-Outro",
+      "estrofa_1_clave": "She packed my bags last night, pre-flight. Zero hour nine a.m. And I'm gonna be high as a kite by then.",
+      "puente_clave": "Mars ain't the kind of place to raise your kids. In fact, it's cold as hell. And there's no one there to raise them, if you did.",
+      "estribillo_clave": "And I think it's gonna be a long, long time 'til touchdown brings me 'round again to find. I'm not the man they think I am at home. Oh no no no, I'm a rocket man.",
+      "proposito_gancho": "Alienación: Expresa la soledad y la despersonalización del protagonista (el cohete)."
+    },
+    {
+      "id": 13,
+      "cancion": "Your Song",
+      "artista": "Elton John",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "It's a little bit funny, this feeling inside. I'm not one of those who can easily hide. I don't have much money but boy if I did, I'd buy a big house where we both could live.",
+      "puente_clave": "I hope you don't mind, I hope you don't mind. That I put down in words.",
+      "estribillo_clave": "And you can tell everybody this is your song. It may be quite simple, but now that it's done. I hope you don't mind that I put down in words, how wonderful life is while you're in the world.",
+      "proposito_gancho": "Homenaje/Humildad: Una declaración de amor humilde, donde la canción es un regalo en sí mismo."
+    },
+    {
+      "id": 14,
+      "cancion": "Tiny Dancer",
+      "artista": "Elton John",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "Blue jean baby, L.A. lady, seamstress for the band. Pretty eyes, I'm going to take you dancing. / Jesus freaks out in the street, handing tickets out for God.",
+      "puente_clave": "But oh how sweet it is to love.",
+      "estribillo_clave": "Hold me closer, tiny dancer. Count the headlights on the highway. Lay me down in sheets of linen, you had a busy day today.",
+      "proposito_gancho": "Intimidad: Un deseo de cercanía y admiración por la belleza y el cansancio de la bailarina."
+    },
+    {
+      "id": 15,
+      "cancion": "American Pie",
+      "artista": "Don McLean",
+      "estructura_vcvc": "V-C-V-C-V-C-Outro (Narrativa, no V-C tradicional)",
+      "estrofa_1_clave": "A long, long time ago I can still remember how that music used to make me smile. And I knew if I had my chance that I could make those people dance.",
+      "puente_clave": "The three men I admire most: The Father, Son, and the Holy Ghost. They caught the last train for the coast.",
+      "estribillo_clave": "Bye bye, Miss American Pie. Drove my Chevy to the levee, but the levee was dry. And them good ol' boys were drinkin' whiskey and rye, singin' 'This'll be the day that I die...'",
+      "proposito_gancho": "Lamento: El recuerdo de la pérdida de la inocencia y el fin de una era ('El Día que Murió la Música')."
+    },
+    {
+      "id": 16,
+      "cancion": "Superstition",
+      "artista": "Stevie Wonder",
+      "estructura_vcvc": "Riff-C-Riff-C-Outro",
+      "estrofa_1_clave": "Very superstitious, writings on the wall. Very superstitious, ladders 'round the door. / Thirteen month old baby broke the looking glass.",
+      "puente_clave": "N/A (Gancho repetitivo basado en el riff).",
+      "estribillo_clave": "When you believe in things that you don't understand, then you suffer. Superstition ain't the way. Yeah.",
+      "proposito_gancho": "Advertencia: Crítica directa a la irracionalidad y los peligros de la superstición."
+    },
+    {
+      "id": 17,
+      "cancion": "Isn't She Lovely",
+      "artista": "Stevie Wonder",
+      "estructura_vcvc": "V-C-V-C-Outro (Improvisatorio)",
+      "estrofa_1_clave": "I never thought through love we'd be, making one as lovely as she. / But isn't she lovely made from love?",
+      "puente_clave": "N/A (La estructura es muy simple y se centra en la melodía del coro).",
+      "estribillo_clave": "Isn't she lovely? Isn't she wonderful? Isn't she precious? Less than one minute old.",
+      "proposito_gancho": "Celebración: Expresión de alegría pura e inmediata por el nacimiento de su hija."
+    },
+    {
+      "id": 18,
+      "cancion": "Go Your Own Way",
+      "artista": "Fleetwood Mac",
+      "estructura_vcvc": "V-C-V-C-Solo-C",
+      "estrofa_1_clave": "Loving you isn't the right thing to do. How can I ever change things that I feel? If I could, maybe I'd give you my world.",
+      "puente_clave": "Tell me why everything turned around. Packed up, shack up, it's a no-go.",
+      "estribillo_clave": "You can go your own way (Go your own way). You can call it another lonely day. You can go your own way (Go your own way).",
+      "proposito_gancho": "Independencia/Aceptación: Declaración de ruptura y la necesidad de tomar caminos separados."
+    },
+    {
+      "id": 19,
+      "cancion": "Billie Jean",
+      "artista": "Michael Jackson",
+      "estructura_vcvc": "V-PreC-C-V-PreC-C-P-Outro",
+      "estrofa_1_clave": "She was more like a beauty queen from a movie scene. I said 'Don't mind, but what do you mean, I am the one'.",
+      "puente_clave": "People always told me be careful what you do, and don't go around breaking young girls' hearts.",
+      "estribillo_clave": "Billie Jean is not my lover. She's just a girl who claims that I am the one, but the kid is not my son.",
+      "proposito_gancho": "Negación/Defensa: La afirmación central de inocencia y rechazo a la acusación."
+    },
+    {
+      "id": 20,
+      "cancion": "Beat It",
+      "artista": "Michael Jackson",
+      "estructura_vcvc": "V-C-V-C-P-Solo",
+      "estrofa_1_clave": "They told him don't you ever come around here. Don't wanna see your face, you better disappear. The fire's in their eyes and their words are really clear.",
+      "puente_clave": "You have to show them that you're really not scared. You're playin' with your life, this ain't no truth or dare.",
+      "estribillo_clave": "Showin' how funky strong is your fight. It doesn't matter who's wrong or right, just beat it, just beat it.",
+      "proposito_gancho": "Mensaje Social: Un llamado directo y urgente a evitar la violencia y las confrontaciones físicas."
+    }
+,
+    {
+      "id": 21,
+      "cancion": "Thriller",
+      "artista": "Michael Jackson",
+      "estructura_vcvc": "V-C-V-C-Narrativa-C",
+      "estrofa_1_clave": "It's close to midnight and something evil's lurking in the dark. Under the moonlight, you see a sight that almost stops your heart.",
+      "puente_clave": "The funk of forty thousand years and grizzly ghouls from every tomb are closing in to seal your doom. / (Narrativa: Vincent Price)",
+      "estribillo_clave": "Cause this is thriller, thriller night. And no one's gonna save you from the beast about to strike. You know it's thriller, thriller night.",
+      "proposito_gancho": "Drama/Miedo: Sumersión en una narrativa de terror, creando emoción y suspense."
+    },
+    {
+      "id": 22,
+      "cancion": "Like a Virgin",
+      "artista": "Madonna",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "I made it through the wilderness. Somehow I made it through. Didn't know how lost I was until I found you.",
+      "puente_clave": "Love was long gone, your heart was cold. Was lost without a trace. So afraid to face the music.",
+      "estribillo_clave": "Like a virgin, touched for the very first time. Like a virgin, when your heart beats next to mine.",
+      "proposito_gancho": "Renovación: Expresa el sentimiento de pureza y el nuevo comienzo que trae un amor apasionado."
+    },
+    {
+      "id": 23,
+      "cancion": "Like a Prayer",
+      "artista": "Madonna",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "Life is a mystery, everyone must stand alone. I hear you call my name, and it feels like home.",
+      "puente_clave": "Just like a prayer, your voice can take me there. Just like a muse to me, you are a mystery.",
+      "estribillo_clave": "When you call my name it's like a little prayer. I'm down on my knees, I wanna take you there. In the midnight hour, I can feel your power.",
+      "proposito_gancho": "Misticismo: Compara el éxtasis del amor y el deseo con una experiencia religiosa o espiritual."
+    },
+    {
+      "id": 24,
+      "cancion": "Girls Just Want to Have Fun",
+      "artista": "Cyndi Lauper",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "My father yells, 'What you gonna do with your life?' Oh daddy dear, you know you're still number one.",
+      "puente_clave": "Some boys take a beautiful girl, and hide her away from the rest of the world.",
+      "estribillo_clave": "I just wanna have fun. Oh, girls just want to have fun. Oh, girls just want to have fun.",
+      "proposito_gancho": "Independencia: Un himno feminista sobre el derecho de las mujeres a la autonomía y el disfrute."
+    },
+    {
+      "id": 25,
+      "cancion": "Take on Me",
+      "artista": "a-ha",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "We're talking away, I don't know what I'm to say. I'll say it anyway. Today's another day to find you.",
+      "puente_clave": "Oh, the things that you say. Is it life or just a game, as my eyes dart from one side to the other?",
+      "estribillo_clave": "Take on me, (take on me) Take me on, (take me on) I'll be gone in a day or two.",
+      "proposito_gancho": "Urgencia: Un ruego desesperado por una oportunidad de amor antes de que el tiempo se acabe."
+    },
+    {
+      "id": 26,
+      "cancion": "Sweet Dreams (Are Made of This)",
+      "artista": "Eurythmics",
+      "estructura_vcvc": "V-C-V-C-Solo-C",
+      "estrofa_1_clave": "Sweet dreams are made of this, who am I to disagree? I travel the world and the seven seas.",
+      "puente_clave": "I wanna use you and abuse you. I wanna know what's inside you. / Hold your head up, moving on.",
+      "estribillo_clave": "Sweet dreams are made of this, who am I to disagree? Everybody's looking for something. Some of them want to use you...",
+      "proposito_gancho": "Reflexión: Meditación sobre la ambición, los sueños y la búsqueda universal de un propósito."
+    },
+    {
+      "id": 27,
+      "cancion": "Every Breath You Take",
+      "artista": "The Police",
+      "estructura_vcvc": "V-C-V-C-Solo-Outro",
+      "estrofa_1_clave": "Since you've gone I've been lost without a trace. I dream at night, I can only see your face.",
+      "puente_clave": "Oh, can't you see, you belong to me? How my poor heart aches with every step you take.",
+      "estribillo_clave": "Every breath you take, and every move you make, every bond you break, every step you take, I'll be watching you.",
+      "proposito_gancho": "Obsesión/Control: Revela una vigilancia post-ruptura, a menudo malinterpretada como romántica."
+    },
+    {
+      "id": 28,
+      "cancion": "With or Without You",
+      "artista": "U2",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "See the stone set in your eyes. See the thorn twist in your side. I wait for you. / My hands are tied, my body bruised.",
+      "puente_clave": "And you twist and turn away, leave me hanging on. / Oh, I can't live with or without you.",
+      "estribillo_clave": "With or without you... I can't live with or without you.",
+      "proposito_gancho": "Contradicción: Expresa el tormento de una relación insostenible pero de la que no puede escapar."
+    },
+    {
+      "id": 29,
+      "cancion": "Time After Time",
+      "artista": "Cyndi Lauper",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "Lying in my bed I hear the clock tick, and think of you. Turning back the pages to the place where we first met.",
+      "puente_clave": "If you're lost, you can look and you will find me, time after time.",
+      "estribillo_clave": "If you're lost, you can look and you will find me, time after time. If you fall, I will catch you, I will be waiting.",
+      "proposito_gancho": "Lealtad: Promesa de apoyo incondicional a un amigo o amante a través del tiempo."
+    },
+    {
+      "id": 30,
+      "cancion": "Wake Me Up Before You Go-Go",
+      "artista": "Wham!",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "You put the boom boom into my heart. You send my soul sky high when your loving starts. / You leave without a sound. It doesn't mean that I won't be around.",
+      "puente_clave": "You know I'm gonna dress to kill. Oh baby, what you gonna wear tonight?",
+      "estribillo_clave": "Wake me up before you go-go, 'cause I'm not plannin' on going solo. Wake me up before you go-go, take me dancing tonight.",
+      "proposito_gancho": "Ansiedad/Juego: Petición juguetona para no ser excluido de los planes de diversión."
+    },
+    {
+      "id": 31,
+      "cancion": "Careless Whisper",
+      "artista": "George Michael",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "I feel so unsure, as I take your hand and lead you to the dance floor. As the music dies, something in your eyes calls to mind a silver screen and all its sad goodbyes.",
+      "puente_clave": "We could have last a lifetime, neither one of us had the strength to say goodbye. / Was it good for you?",
+      "estribillo_clave": "I'm never gonna dance again, guilty feet have got no rhythm. Though it's easy to pretend, I know you're not a fool.",
+      "proposito_gancho": "Culpa/Arrepentimiento: El remordimiento por haber engañado, lo que ha destruido la relación."
+    },
+    {
+      "id": 32,
+      "cancion": "Faith",
+      "artista": "George Michael",
+      "estructura_vcvc": "V-C-V-C-Solo",
+      "estrofa_1_clave": "Well, I guess it would be nice if I could touch your body. I know not everybody has got a body like you, but I've got to think twice.",
+      "puente_clave": "I've been lonely for so long. / That's just the way it is, that's the way it is.",
+      "estribillo_clave": "I gotta have faith, faith, faith. I gotta have faith, faith, faith. 'Cause I won't let you hurt me again.",
+      "proposito_gancho": "Tentación: La lucha interna entre el deseo físico y la necesidad de permanecer fiel."
+    },
+    {
+      "id": 33,
+      "cancion": "Livin' on a Prayer",
+      "artista": "Bon Jovi",
+      "estructura_vcvc": "V-C-V-C-P-KeyChange-C",
+      "estrofa_1_clave": "Once upon a time not so long ago, Tommy used to work on the docks, union's been on strike, he's down on his luck.",
+      "puente_clave": "We've got to hold on to what we've got. It doesn't make a difference if we make it or not. We've got each other and that's a lot.",
+      "estribillo_clave": "Woah, we're half way there. Woah-oh, livin' on a prayer! Take my hand, we'll make it I swear. Woah-oh, livin' on a prayer!",
+      "proposito_gancho": "Esperanza: Himno de apoyo y lucha de la clase trabajadora contra la adversidad."
+    },
+    {
+      "id": 34,
+      "cancion": "Don't Stop Believin'",
+      "artista": "Journey",
+      "estructura_vcvc": "V-C-V-C-P-Outro(C)",
+      "estrofa_1_clave": "Just a small town girl, livin' in a lonely world. She took the midnight train goin' anywhere. Just a city boy, born and raised in South Detroit.",
+      "puente_clave": "Streetlight people, living just to find emotion. Hiding somewhere in the night. Holdin' on to the feeling.",
+      "estribillo_clave": "Don't stop believin'. Hold on to that feelin'. Streetlight people. Ohhhh.",
+      "proposito_gancho": "Motivación: Mensaje de aferrarse a la esperanza y los sueños a pesar de las dificultades."
+    },
+    {
+      "id": 35,
+      "cancion": "Purple Rain",
+      "artista": "Prince",
+      "estructura_vcvc": "V-C-V-C-Solo-Outro",
+      "estrofa_1_clave": "I never meant to cause you any sorrow. I never meant to cause you any pain. I only wanted to see you laughing in the purple rain.",
+      "puente_clave": "If you ever need a friend, then I'm the one you can call. And I know you'll always be the one.",
+      "estribillo_clave": "Purple rain, purple rain. I only wanted to see you bathing in the purple rain.",
+      "proposito_gancho": "Perdón: Petición de reconciliación y un deseo de superar juntos la tristeza."
+    },
+    {
+      "id": 36,
+      "cancion": "When Doves Cry",
+      "artista": "Prince",
+      "estructura_vcvc": "V-C-V-C-Solo-Outro",
+      "estrofa_1_clave": "Dig if you will the picture, of you and I in a field of red. You gave me all your love and all I gave you was a cry.",
+      "puente_clave": "How can you just leave me standing? Alone in a world that's so cold? Maybe I'm just too demanding.",
+      "estribillo_clave": "Why do we scream at each other? This is what it sounds like when doves cry.",
+      "proposito_gancho": "Agonía: Lamento sobre los problemas de comunicación y la autodestrucción en la pareja."
+    },
+    {
+      "id": 37,
+      "cancion": "Africa",
+      "artista": "Toto",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "I hear the drums echoing tonight, but she hears only whispers of some quiet conversation. She's coming in twelve-thirty flight, the moonlit wings reflect the stars that guide me towards salvation.",
+      "puente_clave": "Sure as Kilimanjaro rises like Olympus above the Serengeti. I know that I must do what's right, sure as shooting stars, remember what I told you.",
+      "estribillo_clave": "I bless the rains down in Africa. Gonna take some time to do the things we never had.",
+      "proposito_gancho": "Romanticismo: Un ideal sobre un continente lejano, mezclando nostalgia y aventura."
+    },
+    {
+      "id": 38,
+      "cancion": "Eternal Flame",
+      "artista": "The Bangles",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "There is a fire starting in my soul. If there is a light in your eyes, then let me know.",
+      "puente_clave": "Close your eyes, give me your hand, darling. Do you feel my heart beating? Do you understand?",
+      "estribillo_clave": "Am I only dreaming? Is this burning an eternal flame?",
+      "proposito_gancho": "Duda: La necesidad de confirmar si el amor de la pareja es eterno y real."
+    },
+    {
+      "id": 39,
+      "cancion": "Smells Like Teen Spirit",
+      "artista": "Nirvana",
+      "estructura_vcvc": "V-C-V-C-Solo-C (Uso del PreC como parte del C)",
+      "estrofa_1_clave": "Load up on guns, bring your friends. It's fun to lose and to pretend. She's over bored and self-assured.",
+      "puente_clave": "Hello, hello, hello, how low?",
+      "estribillo_clave": "With the lights out, it's less dangerous. Here we are now, entertain us. I feel stupid and contagious. Here we are now, entertain us. A mulatto, an albino, a mosquito, my libido.",
+      "proposito_gancho": "Apatía/Cínismo: Expresión de la frustración, el aburrimiento y el espíritu autodestructivo de la generación."
+    },
+    {
+      "id": 40,
+      "cancion": "Wonderwall",
+      "artista": "Oasis",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "Today is gonna be the day that they're gonna throw it back to you. By now, you should've somehow realized what you gotta do.",
+      "puente_clave": "There are many things that I would like to say to you, but I don't know how.",
+      "estribillo_clave": "Because maybe, you're gonna be the one that saves me. And after all, you're my wonderwall.",
+      "proposito_gancho": "Salvación: El deseo de encontrar apoyo, consuelo y una fuente de estabilidad en la persona amada."
+    }
+ ,
+    {
+      "id": 41,
+      "cancion": "Losing My Religion",
+      "artista": "R.E.M.",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "Oh, life is bigger, it's bigger than you, and you are not me. The lengths that I will go to, the distance in your eyes.",
+      "puente_clave": "Consider this, consider this: The hint of the century. Consider this: The slip that brought me to my knees. What if all these fantasies come flailing around?",
+      "estribillo_clave": "That's me in the corner, that's me in the spot-light, losing my religion. Trying to keep up with you, and I don't know if I can do it.",
+      "proposito_gancho": "Vulnerabilidad: Expresa la ansiedad, la pérdida de la calma y la inseguridad en una relación."
+    },
+    {
+      "id": 42,
+      "cancion": "Creep",
+      "artista": "Radiohead",
+      "estructura_vcvc": "V-C-V-C-Solo-C",
+      "estrofa_1_clave": "When you were here before, couldn't look you in the eye. You're just like an angel, your skin makes me cry. You float like a feather in a beautiful world.",
+      "puente_clave": "I wish I was special, you're so very special. But I'm a creep, I'm a weirdo.",
+      "estribillo_clave": "What the hell am I doing here? I don't belong here.",
+      "proposito_gancho": "Marginación/Autoestima: Sentimientos de inseguridad y alienación; sentirse un inadaptado."
+    },
+    {
+      "id": 43,
+      "cancion": "Black or White",
+      "artista": "Michael Jackson",
+      "estructura_vcvc": "V-C-V-C-Rap-Outro",
+      "estrofa_1_clave": "I took my message to the world, but I didn't get nothin' back. I don't know why, so I'm asking you. Where do we draw the line?",
+      "puente_clave": "See, it's not about races. Just places. Faces. Where your blood comes from is where your heart is.",
+      "estribillo_clave": "I said if you're thinking 'bout my baby, it don't matter if you're black or white.",
+      "proposito_gancho": "Unidad Racial: Un llamado a ignorar las divisiones raciales y a la igualdad."
+    },
+    {
+      "id": 44,
+      "cancion": "Vogue",
+      "artista": "Madonna",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "Look around, everywhere you turn is heartache. It's everywhere that you go. You'll get your share of pleasure and of pain.",
+      "puente_clave": "Beauty's where you find it, not just where you bump and grind it. Let your body go with the flow.",
+      "estribillo_clave": "Come on, vogue. Let your body move to the music. (Hey, hey, hey). Let the rhythm move you. (Vogue!)",
+      "proposito_gancho": "Escapismo/Estilo: Celebración del baile, la moda y la autoexpresión."
+    },
+    {
+      "id": 45,
+      "cancion": "My Heart Will Go On",
+      "artista": "Celine Dion",
+      "estructura_vcvc": "V-C-V-C-KeyChange-C",
+      "estrofa_1_clave": "Every night in my dreams I see you, I feel you. That is how I know you go on. Far across the distance and spaces between us.",
+      "puente_clave": "Love was once the one thing I held onto. We'll stay forever this way. You are safe in my heart.",
+      "estribillo_clave": "Near, far, wherever you are, I believe that the heart does go on. Once more you open the door, and you're here in my heart, and my heart will go on and on.",
+      "proposito_gancho": "Amor Eterno: Promesa de que el amor trascenderá la muerte y el tiempo."
+    },
+    {
+      "id": 46,
+      "cancion": "I Will Always Love You",
+      "artista": "Whitney Houston",
+      "estructura_vcvc": "V-C-V-C-Vocal Breakdown-C",
+      "estrofa_1_clave": "If I should stay, I would only be in your way. So I'll go, but I know I'll think of you every step of the way.",
+      "puente_clave": "Bittersweet memories that is all I'm taking with me. So goodbye. Please don't cry.",
+      "estribillo_clave": "And I will always love you. I will always love you.",
+      "proposito_gancho": "Despedida Amable: Declaración de amor profundo y respetuoso, aceptando la necesidad de la separación."
+    },
+    {
+      "id": 47,
+      "cancion": "Tears in Heaven",
+      "artista": "Eric Clapton",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "Would you know my name, if I saw you in heaven? Would it be the same, if I saw you in heaven? I must be strong and carry on.",
+      "puente_clave": "Beyond the door there's peace I'm sure. And I know there'll be no more tears in heaven.",
+      "estribillo_clave": "I must be strong and carry on, 'cause I know I don't belong here in heaven.",
+      "proposito_gancho": "Luto/Pérdida: Reflexión conmovedora sobre la muerte de un ser querido y el dolor."
+    },
+    {
+      "id": 48,
+      "cancion": "Kiss from a Rose",
+      "artista": "Seal",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "There is so much a man can tell you, so much he can say. You'll lose your mind and play games. / Did you know that when it snows, my eyes become large and the light that you shine can be seen?",
+      "puente_clave": "Baby, I compare you to a kiss from a rose on the grey. Ooh, the more I get of you, the stranger it feels, yeah.",
+      "estribillo_clave": "You're all I ever wanted. You're all I ever needed. And now that your soul knows what it is to fly and be free...",
+      "proposito_gancho": "Amor Abstracto: Metáfora poética para describir la belleza y la complejidad del amor."
+    },
+    {
+      "id": 49,
+      "cancion": "No Scrubs",
+      "artista": "TLC",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "A scrub is hanging out the passenger side of his best friend's ride, trying to holler at me. I'm looking like class and he's looking like trash.",
+      "puente_clave": "If you don't have a car and you're walking, Oh yes son I'm talking to you. If you live at home with your momma, Oh yes son I'm talking to you.",
+      "estribillo_clave": "No, I don't want no scrub. A scrub is a guy that can't get no love from me. Hanging out the passenger side of his best friend's ride, trying to holler at me.",
+      "proposito_gancho": "Estándares: Declaración de que la mujer busca una pareja con madurez y ambición."
+    },
+    {
+      "id": 50,
+      "cancion": "Waterfalls",
+      "artista": "TLC",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "A lonely mother gazing out of her window 'Staring at a son that she just can't touch.' If at any time he's in a jam, she'll be by his side.",
+      "puente_clave": "I seen a rainbow yesterday, but too many raindrops get in the way. Don't go chasing waterfalls.",
+      "estribillo_clave": "Don't go chasing waterfalls. Please stick to the rivers and the lakes that you're used to. I know that you're gonna have it your way or nothing at all, but I think you're moving too fast.",
+      "proposito_gancho": "Advertencia/Moral: Aconseja evitar los riesgos y las decisiones imprudentes (las 'cascadas')."
+    },
+    {
+      "id": 51,
+      "cancion": "Everybody (Backstreet's Back)",
+      "artista": "Backstreet Boys",
+      "estructura_vcvc": "Intro-C-V-C-P-C",
+      "estrofa_1_clave": "Oh my god, we're back again. Brothers, sisters, everybody sing. We're gonna bring the flavor, show you how.",
+      "puente_clave": "As long as there'll be music, we'll be coming back again. We'll be bringing new flavor.",
+      "estribillo_clave": "Everybody, yeah, rock your body, yeah. Backstreet's back, alright!",
+      "proposito_gancho": "Celebración: Un gancho simple y directo que anuncia el regreso de la banda e invita a bailar."
+    },
+    {
+      "id": 52,
+      "cancion": "I Want It That Way",
+      "artista": "Backstreet Boys",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "You are my fire, the one desire. Believe when I say, I want it that way. But we are two worlds apart.",
+      "puente_clave": "Now I can see that we're falling apart. Tell me why I never wanna hear you say...",
+      "estribillo_clave": "Tell me why, ain't nothin' but a heartache. Tell me why, ain't nothin' but a mistake. Tell me why, I never wanna hear you say 'I want it that way'.",
+      "proposito_gancho": "Confusión: El lamento sobre una relación destinada a estar junta, pero con un obstáculo inexplicable."
+    },
+    {
+      "id": 53,
+      "cancion": "…Baby One More Time",
+      "artista": "Britney Spears",
+      "estructura_vcvc": "V-PreC-C-V-PreC-C-P-C",
+      "estrofa_1_clave": "Oh, baby, baby, how was I supposed to know that something wasn't right here? Oh, baby, baby, I shouldn't have let you go.",
+      "puente_clave": "My loneliness is killing me (And I I must confess I still believe). When I'm not with you I lose my mind.",
+      "estribillo_clave": "Hit me, baby, one more time. Give me a sign. My loneliness is killing me. I must confess, I still believe.",
+      "proposito_gancho": "Impaciencia: La ansiedad e impaciencia de una chica que pide a su ex que vuelva."
+    },
+    {
+      "id": 54,
+      "cancion": "Genie in a Bottle",
+      "artista": "Christina Aguilera",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "I feel like I've been locked up tight for a million years. Waiting for someone to set me free. / You bring me out of the darkness and show me the light.",
+      "puente_clave": "Oh, my body's saying 'Let's go'. Oh, but my heart is saying 'No'.",
+      "estribillo_clave": "I'm a genie in a bottle, you gotta rub me the right way. I'm a genie in a bottle, baby, come on and let me out.",
+      "proposito_gancho": "Control/Deseo: La chica pone las condiciones para liberar su deseo sexual."
+    },
+    {
+      "id": 55,
+      "cancion": "Wannabe",
+      "artista": "Spice Girls",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "Yo, I'll tell you what I want, what I really, really want. So tell me what you want, what you really, really want.",
+      "puente_clave": "If you wanna be my lover, you gotta get with my friends. Make it last forever, friendship never ends.",
+      "estribillo_clave": "If you wanna be my lover, you gotta get with my friends. If you want to get down with me, then you gotta make an effort.",
+      "proposito_gancho": "Prioridad: Un himno sobre la prioridad de la amistad (Girl Power) sobre la relación romántica."
+    },
+    {
+      "id": 56,
+      "cancion": "Believe",
+      "artista": "Cher",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "No matter how hard I try, you keep pushing me aside. And I can't break through, there's no talking to you.",
+      "puente_clave": "Well, I guess I just fell apart. I don't know where to go and I don't know what to do.",
+      "estribillo_clave": "Do you believe in life after love? I can feel something inside me say 'I really don't think you're strong enough.'",
+      "proposito_gancho": "Duda/Resurgir: Expresa el escepticismo sobre si es posible volver a amar después de una desilusión."
+    },
+    {
+      "id": 57,
+      "cancion": "Iris",
+      "artista": "Goo Goo Dolls",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "And I'd give up forever to touch you, 'cause I know that you feel me somehow. You're the closest to heaven that I'll ever be.",
+      "puente_clave": "When everything's meant to be broken, I just want you to know who I am.",
+      "estribillo_clave": "I don't want the world to see me, 'cause I don't think that they'd understand. When everything's meant to be broken, I just want you to know who I am.",
+      "proposito_gancho": "Vulnerabilidad: El deseo de ser comprendido y aceptado por una sola persona en medio de la imperfección."
+    },
+    {
+      "id": 58,
+      "cancion": "Crazy in Love",
+      "artista": "Beyoncé feat. Jay-Z",
+      "estructura_vcvc": "C-V-C-V-Break-C-Outro",
+      "estrofa_1_clave": "I look and stare so deep in your eyes, I touch on you more and more every time. When you leave, I'm begging you not to go. Call your name two or three times in a row.",
+      "puente_clave": "(Jay-Z Rap) I been shakin' since we met. If you scared, call that fire department.",
+      "estribillo_clave": "Got me looking, so crazy right now, your love's got me looking so crazy right now. Got me looking so crazy right now. I hope you still love me.",
+      "proposito_gancho": "Éxtasis/Pérdida de Control: La sensación de locura y la pérdida de control que provoca un amor intenso."
+    },
+    {
+      "id": 59,
+      "cancion": "Single Ladies (Put a Ring on It)",
+      "artista": "Beyoncé",
+      "estructura_vcvc": "C-V-C-P-C",
+      "estrofa_1_clave": "I remember being young and in love. Didn't have a care in the world. But if you liked it, you should've put a ring on it.",
+      "puente_clave": "Stop acting like you didn't know. 'Cause you were just too slow. That's why you are lonely.",
+      "estribillo_clave": "All the single ladies, now put your hands up! Cause if you liked it, then you should have put a ring on it. If you liked it, then you shoulda put a ring on it.",
+      "proposito_gancho": "Exigencia/Independencia: Un llamado a la acción para el hombre y una celebración de la soltería."
+    },
+    {
+      "id": 60,
+      "cancion": "Hips Don't Lie",
+      "artista": "Shakira feat. Wyclef Jean",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "I never really knew that she could dance like this. She makes a man wants to speak Spanish. Pero, ven aquí, yo quiero verte.",
+      "puente_clave": "Oh boy, I can see your body moving. And it's driving me crazy. My mouth is running, but I don't know what I'm talking about.",
+      "estribillo_clave": "Oh, man, when you look at me like that, my hips don't lie. I'm on tonight, you know my hips don't lie, and I'm starting to feel it's right.",
+      "proposito_gancho": "Instinto/Deseo: El cuerpo como la voz de la verdad en la atracción; el instinto físico es más honesto que la mente."
+    }
+,
+    {
+      "id": 61,
+      "cancion": "Hey Ya!",
+      "artista": "OutKast",
+      "estructura_vcvc": "V-PreC-C-V-PreC-C-P-C(fade)",
+      "estrofa_1_clave": "My baby don't mess around, because she loves me so. And this I know for sho'. But does she really want to? But can't stand to see me walk out the door.",
+      "puente_clave": "If what they say is 'Nothing lasts forever,' then what makes it, what makes it, what makes it? / Then tell me what's safer than living in a cage?",
+      "estribillo_clave": "Hey Ya! Hey Ya! All ya'll know what to do. Hey Ya! Hey Ya! Don't wanna meet your daddy.",
+      "proposito_gancho": "Negación/Dualidad: Ofrece una energía bailable que esconde una letra triste sobre la fragilidad de las relaciones modernas."
+    },
+    {
+      "id": 62,
+      "cancion": "Crazy",
+      "artista": "Gnarls Barkley",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "I remember when I lost my mind. There was something so pleasant about that place. Even your emotions have an echo in so much space.",
+      "puente_clave": "And when you're out there without care, yeah, I was out of touch. But it wasn't because I didn't know enough.",
+      "estribillo_clave": "I thought that I was crazy, maybe I was. / Does that make me crazy? Possibly.",
+      "proposito_gancho": "Identidad/Locura: Reflexiona sobre la sanidad mental y el conocimiento que puede llevar a la sensación de locura."
+    },
+    {
+      "id": 63,
+      "cancion": "Toxic",
+      "artista": "Britney Spears",
+      "estructura_vcvc": "V-PreC-C-V-PreC-C-P-C",
+      "estrofa_1_clave": "With the taste of your lips, I'm on a ride. You're toxic, I'm slipping under. With a taste of your poison paradise, I'm addicted to you.",
+      "puente_clave": "Don't you know that you're toxic? And I love what you do, don't you know that you're toxic?",
+      "estribillo_clave": "I'm addicted to you, don't you know that you're toxic? And I love what you do, don't you know that you're toxic?",
+      "proposito_gancho": "Atracción Destructiva: Expresa la adicción a una persona que se sabe que es peligrosa o dañina."
+    },
+    {
+      "id": 64,
+      "cancion": "Since U Been Gone",
+      "artista": "Kelly Clarkson",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "Here's the thing, we started out friends. It was cool, but it was all pre-tend. 'Cause you brought the fire and you put me out.",
+      "puente_clave": "You had your chance, you blew it. Out of my way, I'm getting' on with my life.",
+      "estribillo_clave": "Since U Been Gone, I can breathe for the first time. I'm so moving on, yeah, yeah. Thanks to you, I got a new view.",
+      "proposito_gancho": "Liberación: Celebración del alivio emocional y la libertad tras terminar una mala relación."
+    },
+    {
+      "id": 65,
+      "cancion": "Mr. Brightside",
+      "artista": "The Killers",
+      "estructura_vcvc": "V-PreC-C-V-PreC-C-P-C",
+      "estrofa_1_clave": "I'm coming out of my cage and I've been doing just fine. Gotta gotta be down, because I want it all. It started out with a kiss, how did it end up like this?",
+      "puente_clave": "But she's touching his chest now, he takes off her dress now. Let me go.",
+      "estribillo_clave": "Jealousy, turning saints into the sea. Swimming through sick lullabies, choked by your control. Dressed up like a priest, as you were, I couldn't look away.",
+      "proposito_gancho": "Agonía/Obsesión: La tortura de los celos y la incapacidad de controlar la imaginación."
+    },
+    {
+      "id": 66,
+      "cancion": "Fix You",
+      "artista": "Coldplay",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "When you try your best, but you don't succeed. When you get what you want, but not what you need. When you feel so tired, but you can't sleep.",
+      "puente_clave": "Tears stream down your face when you lose something you can't replace. / And I will try to fix you.",
+      "estribillo_clave": "Lights will guide you home, and ignite your bones, and I will try to fix you.",
+      "proposito_gancho": "Consuelo/Apoyo: Promesa de intentar ayudar y guiar a alguien que está sufriendo."
+    },
+    {
+      "id": 67,
+      "cancion": "Clocks",
+      "artista": "Coldplay",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "The lights go out and I can't be saved. Tides that I tried to swim against have all won. / Nothing else compares.",
+      "puente_clave": "You are, you are, are. Confusion that never stops. Closing walls and ticking clocks.",
+      "estribillo_clave": "You are, you are, are. Confusion that never stops. Closing walls and ticking clocks. Come on, be my security.",
+      "proposito_gancho": "Urgencia: La frustración por la falta de tiempo, la indecisión y la necesidad de actuar."
+    },
+    {
+      "id": 68,
+      "cancion": "Poker Face",
+      "artista": "Lady Gaga",
+      "estructura_vcvc": "V-PreC-C-V-PreC-C-P-C(fade)",
+      "estrofa_1_clave": "I wanna hold 'em like they do in Texas, please. Fold 'em, let 'em hit me, raise it, baby, stay with me. / Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh. I won't tell you that I love you.",
+      "puente_clave": "I wanna roll with you a wild romance. (Shuffle the deck, I'm gonna play the ace).",
+      "estribillo_clave": "Can't read my, can't read my, no, he can't read my poker face.",
+      "proposito_gancho": "Seducción/Juego: La habilidad de ocultar las verdaderas emociones e intenciones sexuales."
+    },
+    {
+      "id": 69,
+      "cancion": "Just Dance",
+      "artista": "Lady Gaga",
+      "estructura_vcvc": "V-PreC-C-V-PreC-C-P-C",
+      "estrofa_1_clave": "I've had a little bit too much, much. All of the people start to rush, start to rush by. / I'm just trying to find the one to take me home.",
+      "puente_clave": "When I turn on the radio, I turn up the volume. / Just dance, gonna be okay.",
+      "estribillo_clave": "Just dance, gonna be okay. Da da doo-doo-doo. Just dance. Spin that record, babe.",
+      "proposito_gancho": "Escapismo: Un himno simple y directo para la pista de baile, enfocado en la diversión."
+    },
+    {
+      "id": 70,
+      "cancion": "Umbrella",
+      "artista": "Rihanna feat. Jay-Z",
+      "estructura_vcvc": "V-PreC-C-V-PreC-C-P-C",
+      "estrofa_1_clave": "You have my heart, and we'll never be worlds apart. Maybe in magazines, but you'll still be my star. 'Cause in the dark, you can't see shiny cars.",
+      "puente_clave": "Now that it's raining more than ever, know that we'll still have each other. You can stand under my umbrella.",
+      "estribillo_clave": "When the sun shines, we'll shine together. Told you I'll be here forever. Said I'll always be your friend, took an oath, I'ma stick it out 'til the end.",
+      "proposito_gancho": "Lealtad Incondicional: Promesa de apoyo y amistad en las peores circunstancias (bajo la 'lluvia')."
+    },
+    {
+      "id": 71,
+      "cancion": "Rehab",
+      "artista": "Amy Winehouse",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "They tried to make me go to rehab, I said 'No, no, no'. / I ain't got the time, and if my daddy thinks I'm fine.",
+      "puente_clave": "The man said 'Why do you think you're here?' I said 'I got no idea.' / I'm gonna lose my baby, so I always keep a bottle near.",
+      "estribillo_clave": "They tried to make me go to rehab, I said 'No, no, no'. Yes, I been black and then I went back to black.",
+      "proposito_gancho": "Autodefensa: El rechazo a la rehabilitación y la defensa de su propia manera de lidiar con el dolor."
+    },
+    {
+      "id": 72,
+      "cancion": "I Gotta Feeling",
+      "artista": "The Black Eyed Peas",
+      "estructura_vcvc": "V-C-V-C-Break-C(fade)",
+      "estrofa_1_clave": "I know that we'll have a good time. A feeling that tonight's gonna be a good night. / Tonight's the night, let's live it up. I got my money, let's spend it up.",
+      "puente_clave": "Fill up my cup (Mozel Tov!). Look at her dancing, just like a star.",
+      "estribillo_clave": "I gotta feeling that tonight's gonna be a good night. That tonight's gonna be a good, good night.",
+      "proposito_gancho": "Anticipación: La promesa y la sensación de que una noche de fiesta será memorable y divertida."
+    },
+    {
+      "id": 73,
+      "cancion": "Rolling in the Deep",
+      "artista": "Adele",
+      "estructura_vcvc": "V-PreC-C-V-PreC-C-P-C",
+      "estrofa_1_clave": "There's a fire starting in my heart, reaching a fever pitch and it's bringing me out of the dark. Finally, I can see you crystal clear. Go ahead and sell me out.",
+      "puente_clave": "The scars of your love remind me of us. They keep me thinking that we almost had it all. The scars of your love, they leave me breathless.",
+      "estribillo_clave": "We could have had it all. Rolling in the deep. You had my heart inside your hand, and you played it, to the beat.",
+      "proposito_gancho": "Venganza/Furia: Expresa la ira y la determinación de revelar la verdad tras una traición."
+    },
+    {
+      "id": 74,
+      "cancion": "Someone Like You",
+      "artista": "Adele",
+      "estructura_vcvc": "V-C-V-C-P-C",
+      "estrofa_1_clave": "I heard that you're settled down, that you found a girl and you're married now. I heard that your dreams came true. Guess she gave you things I didn't give to you.",
+      "puente_clave": "Nothing compares, no worries or cares. Regrets and mistakes, they are memories made. Who would have known how bittersweet this would taste?",
+      "estribillo_clave": "Never mind, I'll find someone like you. I wish nothing but the best for you, too. Don't forget me, I beg. I remember you said, 'Sometimes it lasts in love, but sometimes it hurts instead'.",
+      "proposito_gancho": "Aceptación/Melancolía: La tristeza al ver a un ex seguir adelante, mezclada con la aceptación."
+    },
+    {
+      "id": 75,
+      "cancion": "Get Lucky",
+      "artista": "Daft Punk feat. Pharrell Williams",
+      "estructura_vcvc": "V-C-V-C-Outro",
+      "estrofa_1_clave": "We've come too far to give up who we are. So let's raise the bar and our cups to the stars. / She's up all night 'til the sun.",
+      "puente_clave": "I'm up all night for good fun. I'm up all night to get some.",
+      "estribillo_clave": "We're up all night to get lucky. We're up all night to get some. We're up all night for good fun.",
+      "proposito_gancho": "Deseo/Danza: Celebración de la búsqueda de la conexión física y el deseo a través del baile."
+    },
+    {
+      "id": 76,
+      "cancion": "Uptown Funk",
+      "artista": "Mark Ronson feat. Bruno Mars",
+      "estructura_vcvc": "V-C-V-C-P-C(Out)",
+      "estrofa_1_clave": "This hit, that ice cold. Michelle Pfeiffer, white gold. This one, for them hood girls. Them good girls, straight masterpieces.",
+      "puente_clave": "I'm too hot (hot damn). Say my name, you know who I am. I'm too hot (hot damn).",
+      "estribillo_clave": "Cause Uptown Funk gon' give it to ya. Cause Uptown Funk gon' give it to ya. Saturday night and we in the spot.",
+      "proposito_gancho": "Estilo/Confianza: Un throwback a la música funk, celebrando el estilo y el ritmo."
+    },
+    {
+      "id": 77,
+      "cancion": "Happy",
+      "artista": "Pharrell Williams",
+      "estructura_vcvc": "V-C-V-C-Coda(fade)",
+      "estrofa_1_clave": "It might seem crazy what I'm about to say. Sunshine she's here, you can take a break. I'm a hot air balloon that could go to space.",
+      "puente_clave": "Here come bad news talking this and that (yeah!). Well, give me all you got, don't hold it back (yeah!).",
+      "estribillo_clave": "Clap along if you feel like a room without a roof. Because I'm happy.",
+      "proposito_gancho": "Alegría: Una celebración simple y universal de la felicidad."
+    },
+    {
+      "id": 78,
+      "cancion": "Shape of You",
+      "artista": "Ed Sheeran",
+      "estructura_vcvc": "V-PreC-C-V-PreC-C-P-C",
+      "estrofa_1_clave": "The club isn't the best place to find a lover, so the bar is where I go. Me and my friends at the table doing shots.",
+      "puente_clave": "Last night you were in my room, and now my bedsheets smell like you. Every day discovering something brand new.",
+      "estribillo_clave": "I'm in love with the shape of you. We push and pull like a magnet do. Although my heart is falling too, I'm in love with your body.",
+      "proposito_gancho": "Atracción Física: La atracción y el romance que comienza en un bar, centrado en el deseo."
+    },
+    {
+      "id": 79,
+      "cancion": "Thinking Out Loud",
+      "artista": "Ed Sheeran",
+      "estructura_vcvc": "V-C-V-C-Solo-C",
+      "estrofa_1_clave": "When your legs don't work like they used to before, and I can't sweep you off of your feet. Will your mouth still remember the taste of my love?",
+      "puente_clave": "And maybe we found love right where we are. Thinking out loud.",
+      "estribillo_clave": "And darling I will be loving you 'til we're seventy. And baby my heart could still fall as hard at twenty-three. And maybe we found love right where we are.",
+      "proposito_gancho": "Compromiso Eterno: El amor que promete perdurar hasta la vejez y a pesar del paso del tiempo."
+    },
+    {
+      "id": 80,
+      "cancion": "Blinding Lights",
+      "artista": "The Weeknd",
+      "estructura_vcvc": "V-PreC-C-V-PreC-C-P-C",
+      "estrofa_1_clave": "I said, ooh, I'm blinded by the lights. No, I can't sleep until I feel your touch. / I'm just calling back to let you know (I can't see clearly when you're gone).",
+      "puente_clave": "I look around and I see the city glow. I keep searching for your face.",
+      "estribillo_clave": "I said, ooh, I'm blinded by the lights. No, I can't sleep until I feel your touch.",
+      "proposito_gancho": "Adicción/Urgencia: La necesidad urgente de volver a una amante, con una sensación de euforia."
+    },
+    {
+      "id": 81,
+      "cancion": "Shake It Off",
+      "artista": "Taylor Swift",
+      "estructura_vcvc": "V-C-V-C-P-C(Out)",
+      "estrofa_1_clave": "I stay out too late, got nothing in my brain. That's what people say. I go on too many dates, but I can't make them stay.",
+      "puente_clave": "I'm dancing on my own, (dancing on my own) I make the moves up as I go. (moves up as I go)",
+      "estribillo_clave": "Cause the players gonna play, play, play, play, play. And the haters gonna hate, hate, hate, hate, hate. Baby, I'm just gonna shake, shake, shake, shake, shake. I shake it off, I shake it off.",
+      "proposito_gancho": "Autoaceptación: Un mensaje de empoderamiento para ignorar a los críticos y a los que odian."
+    },
+    {
+      "id": 82,
+      "cancion": "Call Me Maybe",
+      "artista": "Carly Rae Jepsen",
+      "estructura_vcvc": "V-C-V-C-P-C(fade)",
+      "estrofa_1_clave": "I threw a wish in the well, don't ask me, I'll never tell. I looked to you as it fell, and now you're in my way. You took your time with the call, I took no time with the fall.",
+      "puente_clave": "And you smile at me, it's a feeling that I can't explain. I guess it's up to you now.",
+      "estribillo_clave": "Hey, I just met you, and this is crazy, but here's my number, so call me, maybe.",
+      "proposito_gancho": "Inocencia/Deseo: La audacia y la ansiedad de un flechazo, con la esperanza de una primera llamada."
+    }
+  ]
+}
