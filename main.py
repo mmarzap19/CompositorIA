@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request, send_file
-from service.audio_service import get_audio_from_model
-from service.lesson_service import get_lesson_from_model
-from service.audio_service import get_audio_from_model
+from service.musician_service import get_audio_from_model
+from service.teacher_service import get_lesson_from_model
+# from service.musician_service import get_audio_from_model
 
 app  = Flask(__name__)
 
