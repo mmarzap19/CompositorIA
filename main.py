@@ -14,7 +14,7 @@ def get_lesson():
     data = request.get_json()
 
     # Obtenemos el json de la petición
-    query = data["query_user"]
+    query = data["learning_theme"]
 
     # Enviamos a chatGPT la petición y obtenemos la lección
     a= get_lesson_from_model(query)
